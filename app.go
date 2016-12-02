@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"net/http"
-	"os"
-	"strings"
+
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
